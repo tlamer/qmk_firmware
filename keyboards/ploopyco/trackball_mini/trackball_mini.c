@@ -49,7 +49,7 @@
 #endif
 
 #ifndef PLOOPY_DRAGSCROLL_DPI
-#    define PLOOPY_DRAGSCROLL_DPI 375  // Fixed-DPI Drag Scroll
+#    define PLOOPY_DRAGSCROLL_DPI 10  // Fixed-DPI Drag Scroll
 #endif
 #ifndef PLOOPY_DRAGSCROLL_MULTIPLIER
 #    define PLOOPY_DRAGSCROLL_MULTIPLIER 0.75  // Variable-DPI Drag Scroll
@@ -131,9 +131,9 @@ report_mouse_t pointing_device_task_kb(report_mouse_t mouse_report) {
         mouse_report.h = mouse_report.x;
 #ifdef PLOOPY_DRAGSCROLL_INVERT
         // Invert vertical scroll direction
-        mouse_report.v = -mouse_report.y;
-#else
         mouse_report.v = mouse_report.y;
+#else
+        mouse_report.v = -mouse_report.y;
 #endif
         mouse_report.x = 0;
         mouse_report.y = 0;
