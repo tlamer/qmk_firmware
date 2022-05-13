@@ -49,7 +49,7 @@
 #endif
 
 #ifndef PLOOPY_DRAGSCROLL_DPI
-#    define PLOOPY_DRAGSCROLL_DPI 10  // Fixed-DPI Drag Scroll
+#    define PLOOPY_DRAGSCROLL_DPI 7  // Fixed-DPI Drag Scroll
 #endif
 #ifndef PLOOPY_DRAGSCROLL_MULTIPLIER
 #    define PLOOPY_DRAGSCROLL_MULTIPLIER 0.75  // Variable-DPI Drag Scroll

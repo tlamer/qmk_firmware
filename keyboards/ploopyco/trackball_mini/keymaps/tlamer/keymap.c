@@ -21,7 +21,7 @@
 #define PLOOPY_DPI_OPTIONS { 500, 750, 1000 }
 #define PLOOPY_DPI_DEFAULT 1
 
-#define PLOOPY_DRAGSCROLL_DPI 10
+#define PLOOPY_DRAGSCROLL_DPI 7
 
 // safe range starts at `PLOOPY_SAFE_RANGE` instead.
 
