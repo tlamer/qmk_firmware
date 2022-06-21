@@ -1,3 +1,4 @@
-The default keymap for the Ploopy Trackball Mini.
+Modified keymap for ploopy trackball mini.
 
-Note that kits bought from PloopyCo actually ship with the VIA keymap, not this one.
+`$ qmk compile -kb ploopyco/trackball_mini/rev1_002 -km tlamer`
+`$ qmk flash -kb ploopyco/trackball_mini/rev1_002 -km tlamer`
